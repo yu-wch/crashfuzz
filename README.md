@@ -33,7 +33,7 @@ Inside the `crashfuzz` directory, there are the following directories
 
 Note that `crashfuzz` is available as open-source software under the
 Apache License 2.0, and can also be reached through the following
-Repository : https://github.com/theosotr/cynthia.
+Repository : https://github.com/tcse-iscas/crashfuzz.
 
 For any additional information, contact the first author by e-mail:
 Dr. Yu Gao \<gaoyu15@otcaix.iscas.ac.cn\>

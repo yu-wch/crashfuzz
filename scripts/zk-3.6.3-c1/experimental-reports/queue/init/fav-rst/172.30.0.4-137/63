@@ -1,0 +1,300 @@
+START
+TIMESTAMP:1674889097176
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:READ172.30.0.5&1079795422
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:85), org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:466)]
+END
+START
+TIMESTAMP:1674889097178
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:172.30.0.5&575640229
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:531)]
+END
+START
+TIMESTAMP:1674889097201
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:READ172.30.0.5&1704925640
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:85), org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:535)]
+END
+START
+TIMESTAMP:1674889097205
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:172.30.0.5&609143271
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:562)]
+END
+START
+TIMESTAMP:1674889097206
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:172.30.0.5&1511421984
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.data.ACL.serialize(ACL.java:50), org.apache.zookeeper.server.ReferenceCountedACLCache.serialize(ReferenceCountedACLCache.java:152), org.apache.zookeeper.server.DataTree.serializeAcls(DataTree.java:1359), org.apache.zookeeper.server.DataTree.serialize(DataTree.java:1372), org.apache.zookeeper.server.util.SerializeUtils.serializeSnapshot(SerializeUtils.java:171), org.apache.zookeeper.server.ZKDatabase.serializeSnapshot(ZKDatabase.java:631), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:576)]
+END
+START
+TIMESTAMP:1674889097206
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:172.30.0.5&2129902799
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.data.Id.serialize(Id.java:50), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.data.ACL.serialize(ACL.java:52), org.apache.zookeeper.server.ReferenceCountedACLCache.serialize(ReferenceCountedACLCache.java:152), org.apache.zookeeper.server.DataTree.serializeAcls(DataTree.java:1359), org.apache.zookeeper.server.DataTree.serialize(DataTree.java:1372), org.apache.zookeeper.server.util.SerializeUtils.serializeSnapshot(SerializeUtils.java:171), org.apache.zookeeper.server.ZKDatabase.serializeSnapshot(ZKDatabase.java:631), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:576)]
+END
+START
+TIMESTAMP:1674889097215
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:172.30.0.5&1007825278
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.DataNode.serialize(DataNode.java:184), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.DataTree.serializeNodeData(DataTree.java:1355), org.apache.zookeeper.server.DataTree.serializeNode(DataTree.java:1339), org.apache.zookeeper.server.DataTree.serializeNodes(DataTree.java:1363), org.apache.zookeeper.server.DataTree.serialize(DataTree.java:1373), org.apache.zookeeper.server.util.SerializeUtils.serializeSnapshot(SerializeUtils.java:171), org.apache.zookeeper.server.ZKDatabase.serializeSnapshot(ZKDatabase.java:631), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:576)]
+END
+START
+TIMESTAMP:1674889097215
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:172.30.0.5&1195458661
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.data.StatPersisted.serialize(StatPersisted.java:113), org.apache.zookeeper.server.DataNode.serialize(DataNode.java:187), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.DataTree.serializeNodeData(DataTree.java:1355), org.apache.zookeeper.server.DataTree.serializeNode(DataTree.java:1339), org.apache.zookeeper.server.DataTree.serializeNodes(DataTree.java:1363), org.apache.zookeeper.server.DataTree.serialize(DataTree.java:1373), org.apache.zookeeper.server.util.SerializeUtils.serializeSnapshot(SerializeUtils.java:171), org.apache.zookeeper.server.ZKDatabase.serializeSnapshot(ZKDatabase.java:631), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:576)]
+END
+START
+TIMESTAMP:1674889097215
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:172.30.0.5&217249288
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.DataNode.serialize(DataNode.java:184), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.DataTree.serializeNodeData(DataTree.java:1355), org.apache.zookeeper.server.DataTree.serializeNode(DataTree.java:1339), org.apache.zookeeper.server.DataTree.serializeNode(DataTree.java:1348), org.apache.zookeeper.server.DataTree.serializeNodes(DataTree.java:1363), org.apache.zookeeper.server.DataTree.serialize(DataTree.java:1373), org.apache.zookeeper.server.util.SerializeUtils.serializeSnapshot(SerializeUtils.java:171), org.apache.zookeeper.server.ZKDatabase.serializeSnapshot(ZKDatabase.java:631), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:576)]
+END
+START
+TIMESTAMP:1674889097216
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:172.30.0.5&1808650062
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.data.StatPersisted.serialize(StatPersisted.java:113), org.apache.zookeeper.server.DataNode.serialize(DataNode.java:187), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.DataTree.serializeNodeData(DataTree.java:1355), org.apache.zookeeper.server.DataTree.serializeNode(DataTree.java:1339), org.apache.zookeeper.server.DataTree.serializeNode(DataTree.java:1348), org.apache.zookeeper.server.DataTree.serializeNodes(DataTree.java:1363), org.apache.zookeeper.server.DataTree.serialize(DataTree.java:1373), org.apache.zookeeper.server.util.SerializeUtils.serializeSnapshot(SerializeUtils.java:171), org.apache.zookeeper.server.ZKDatabase.serializeSnapshot(ZKDatabase.java:631), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:576)]
+END
+START
+TIMESTAMP:1674889097216
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:172.30.0.5&881175439
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.DataNode.serialize(DataNode.java:184), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.DataTree.serializeNodeData(DataTree.java:1355), org.apache.zookeeper.server.DataTree.serializeNode(DataTree.java:1339), org.apache.zookeeper.server.DataTree.serializeNode(DataTree.java:1348), org.apache.zookeeper.server.DataTree.serializeNode(DataTree.java:1348), org.apache.zookeeper.server.DataTree.serializeNodes(DataTree.java:1363), org.apache.zookeeper.server.DataTree.serialize(DataTree.java:1373), org.apache.zookeeper.server.util.SerializeUtils.serializeSnapshot(SerializeUtils.java:171), org.apache.zookeeper.server.ZKDatabase.serializeSnapshot(ZKDatabase.java:631), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:576)]
+END
+START
+TIMESTAMP:1674889097216
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:172.30.0.5&1272854167
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.data.StatPersisted.serialize(StatPersisted.java:113), org.apache.zookeeper.server.DataNode.serialize(DataNode.java:187), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.DataTree.serializeNodeData(DataTree.java:1355), org.apache.zookeeper.server.DataTree.serializeNode(DataTree.java:1339), org.apache.zookeeper.server.DataTree.serializeNode(DataTree.java:1348), org.apache.zookeeper.server.DataTree.serializeNode(DataTree.java:1348), org.apache.zookeeper.server.DataTree.serializeNodes(DataTree.java:1363), org.apache.zookeeper.server.DataTree.serialize(DataTree.java:1373), org.apache.zookeeper.server.util.SerializeUtils.serializeSnapshot(SerializeUtils.java:171), org.apache.zookeeper.server.ZKDatabase.serializeSnapshot(ZKDatabase.java:631), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:576)]
+END
+START
+TIMESTAMP:1674889097216
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:172.30.0.5&1934360647
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.DataNode.serialize(DataNode.java:184), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.DataTree.serializeNodeData(DataTree.java:1355), org.apache.zookeeper.server.DataTree.serializeNode(DataTree.java:1339), org.apache.zookeeper.server.DataTree.serializeNode(DataTree.java:1348), org.apache.zookeeper.server.DataTree.serializeNode(DataTree.java:1348), org.apache.zookeeper.server.DataTree.serializeNodes(DataTree.java:1363), org.apache.zookeeper.server.DataTree.serialize(DataTree.java:1373), org.apache.zookeeper.server.util.SerializeUtils.serializeSnapshot(SerializeUtils.java:171), org.apache.zookeeper.server.ZKDatabase.serializeSnapshot(ZKDatabase.java:631), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:576)]
+END
+START
+TIMESTAMP:1674889097216
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:172.30.0.5&1880925816
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.data.StatPersisted.serialize(StatPersisted.java:113), org.apache.zookeeper.server.DataNode.serialize(DataNode.java:187), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.DataTree.serializeNodeData(DataTree.java:1355), org.apache.zookeeper.server.DataTree.serializeNode(DataTree.java:1339), org.apache.zookeeper.server.DataTree.serializeNode(DataTree.java:1348), org.apache.zookeeper.server.DataTree.serializeNode(DataTree.java:1348), org.apache.zookeeper.server.DataTree.serializeNodes(DataTree.java:1363), org.apache.zookeeper.server.DataTree.serialize(DataTree.java:1373), org.apache.zookeeper.server.util.SerializeUtils.serializeSnapshot(SerializeUtils.java:171), org.apache.zookeeper.server.ZKDatabase.serializeSnapshot(ZKDatabase.java:631), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:576)]
+END
+START
+TIMESTAMP:1674889097469
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:READ172.30.0.5&1220549727
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:85), org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:611)]
+END
+START
+TIMESTAMP:1674889097472
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:READ172.30.0.5&1394015804
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:85), org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650)]
+END
+START
+TIMESTAMP:1674889097978
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:READ172.30.0.5&1514780815
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:85), org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650)]
+END
+START
+TIMESTAMP:1674889099201
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:READ172.30.0.5&2039011858
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:85), org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650)]
+END
+START
+TIMESTAMP:1674889099337
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:READ172.30.0.5&1159837254
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:85), org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650)]
+END
+START
+TIMESTAMP:1674889099366
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:READ172.30.0.5&735673404
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:85), org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650)]
+END
+START
+TIMESTAMP:1674889099414
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:READ172.30.0.5&1567136825
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:85), org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650)]
+END
+START
+TIMESTAMP:1674889099540
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:READ172.30.0.5&972287357
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:85), org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650)]
+END
+START
+TIMESTAMP:1674889099587
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:READ172.30.0.5&285034404
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:85), org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650)]
+END
+START
+TIMESTAMP:1674889099613
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:READ172.30.0.5&1363542182
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:85), org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650)]
+END
+START
+TIMESTAMP:1674889100003
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:READ172.30.0.5&1568812311
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:85), org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650)]
+END
+START
+TIMESTAMP:1674889101392
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:READ172.30.0.5&1356949428
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:85), org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650)]
+END
+START
+TIMESTAMP:1674889101473
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:READ172.30.0.5&2132242554
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:85), org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650)]
+END
+START
+TIMESTAMP:1674889102005
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:READ172.30.0.5&776039805
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:85), org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650)]
+END
+START
+TIMESTAMP:1674889104002
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:READ172.30.0.5&1632290890
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:85), org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650)]
+END
+START
+TIMESTAMP:1674889106002
+THREADID:63
+THREADOBJ:551443935
+PATH:FAVMSG:READ172.30.0.5&652579708
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:85), org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650)]
+END

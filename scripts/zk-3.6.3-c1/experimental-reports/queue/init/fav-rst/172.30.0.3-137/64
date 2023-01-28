@@ -1,0 +1,30 @@
+START
+TIMESTAMP:1674886688398
+THREADID:64
+THREADOBJ:251522596
+PATH:FAVMSG:172.30.0.5&612679135
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.Learner.writePacketNow(Learner.java:194), org.apache.zookeeper.server.quorum.Learner.writePacket(Learner.java:186), org.apache.zookeeper.server.quorum.Learner.request(Learner.java:254), org.apache.zookeeper.server.quorum.FollowerRequestProcessor.run(FollowerRequestProcessor.java:104)]
+END
+START
+TIMESTAMP:1674886688503
+THREADID:64
+THREADOBJ:251522596
+PATH:FAVMSG:172.30.0.5&1871453861
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.Learner.writePacketNow(Learner.java:194), org.apache.zookeeper.server.quorum.Learner.writePacket(Learner.java:186), org.apache.zookeeper.server.quorum.Learner.request(Learner.java:254), org.apache.zookeeper.server.quorum.FollowerRequestProcessor.run(FollowerRequestProcessor.java:104)]
+END
+START
+TIMESTAMP:1674886688503
+THREADID:64
+THREADOBJ:251522596
+PATH:FAVMSG:172.30.0.5&1958689611
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.data.Id.serialize(Id.java:50), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:77), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.Learner.writePacketNow(Learner.java:194), org.apache.zookeeper.server.quorum.Learner.writePacket(Learner.java:186), org.apache.zookeeper.server.quorum.Learner.request(Learner.java:254), org.apache.zookeeper.server.quorum.FollowerRequestProcessor.run(FollowerRequestProcessor.java:104)]
+END

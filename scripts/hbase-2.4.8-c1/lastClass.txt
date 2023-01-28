@@ -1,0 +1,6 @@
+// class version 51.0 (51)
+// access flags 0x11
+public final class jdk/nashorn/internal/objects/NativeSyntaxError$Constructor extends jdk/nashorn/internal/runtime/ScriptFunction implements edu/columbia/cs/psl/phosphor/struct/TaintedWithObjTag {
+
+
+  @Ledu/columbia/cs/psl/phosphor/runtime/TaintInstrumented;() // invisible

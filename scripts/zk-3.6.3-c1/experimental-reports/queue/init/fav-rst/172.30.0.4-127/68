@@ -1,0 +1,240 @@
+START
+TIMESTAMP:1674889322600
+THREADID:68
+THREADOBJ:1866856541
+PATH:FAVMSG:172.30.0.6&444738389
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.sendPackets(LearnerHandler.java:356), org.apache.zookeeper.server.quorum.LearnerHandler.access$200(LearnerHandler.java:62), org.apache.zookeeper.server.quorum.LearnerHandler$1.run(LearnerHandler.java:753)]
+END
+START
+TIMESTAMP:1674889322779
+THREADID:68
+THREADOBJ:1866856541
+PATH:FAVMSG:172.30.0.6&405676120
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.sendPackets(LearnerHandler.java:356), org.apache.zookeeper.server.quorum.LearnerHandler.access$200(LearnerHandler.java:62), org.apache.zookeeper.server.quorum.LearnerHandler$1.run(LearnerHandler.java:753)]
+END
+START
+TIMESTAMP:1674889323016
+THREADID:68
+THREADOBJ:1866856541
+PATH:FAVMSG:172.30.0.6&2091707496
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.sendPackets(LearnerHandler.java:356), org.apache.zookeeper.server.quorum.LearnerHandler.access$200(LearnerHandler.java:62), org.apache.zookeeper.server.quorum.LearnerHandler$1.run(LearnerHandler.java:753)]
+END
+START
+TIMESTAMP:1674889324076
+THREADID:68
+THREADOBJ:1866856541
+PATH:FAVMSG:172.30.0.6&138892449
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.sendPackets(LearnerHandler.java:356), org.apache.zookeeper.server.quorum.LearnerHandler.access$200(LearnerHandler.java:62), org.apache.zookeeper.server.quorum.LearnerHandler$1.run(LearnerHandler.java:753)]
+END
+START
+TIMESTAMP:1674889324127
+THREADID:68
+THREADOBJ:1866856541
+PATH:FAVMSG:172.30.0.6&412660745
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.sendPackets(LearnerHandler.java:356), org.apache.zookeeper.server.quorum.LearnerHandler.access$200(LearnerHandler.java:62), org.apache.zookeeper.server.quorum.LearnerHandler$1.run(LearnerHandler.java:753)]
+END
+START
+TIMESTAMP:1674889324255
+THREADID:68
+THREADOBJ:1866856541
+PATH:FAVMSG:172.30.0.6&1750100689
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.sendPackets(LearnerHandler.java:356), org.apache.zookeeper.server.quorum.LearnerHandler.access$200(LearnerHandler.java:62), org.apache.zookeeper.server.quorum.LearnerHandler$1.run(LearnerHandler.java:753)]
+END
+START
+TIMESTAMP:1674889324278
+THREADID:68
+THREADOBJ:1866856541
+PATH:FAVMSG:172.30.0.6&910517176
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.sendPackets(LearnerHandler.java:356), org.apache.zookeeper.server.quorum.LearnerHandler.access$200(LearnerHandler.java:62), org.apache.zookeeper.server.quorum.LearnerHandler$1.run(LearnerHandler.java:753)]
+END
+START
+TIMESTAMP:1674889324293
+THREADID:68
+THREADOBJ:1866856541
+PATH:FAVMSG:172.30.0.6&1811449866
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.sendPackets(LearnerHandler.java:356), org.apache.zookeeper.server.quorum.LearnerHandler.access$200(LearnerHandler.java:62), org.apache.zookeeper.server.quorum.LearnerHandler$1.run(LearnerHandler.java:753)]
+END
+START
+TIMESTAMP:1674889324298
+THREADID:68
+THREADOBJ:1866856541
+PATH:FAVMSG:172.30.0.6&1483147909
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.sendPackets(LearnerHandler.java:356), org.apache.zookeeper.server.quorum.LearnerHandler.access$200(LearnerHandler.java:62), org.apache.zookeeper.server.quorum.LearnerHandler$1.run(LearnerHandler.java:753)]
+END
+START
+TIMESTAMP:1674889324320
+THREADID:68
+THREADOBJ:1866856541
+PATH:FAVMSG:172.30.0.6&2126296590
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.sendPackets(LearnerHandler.java:356), org.apache.zookeeper.server.quorum.LearnerHandler.access$200(LearnerHandler.java:62), org.apache.zookeeper.server.quorum.LearnerHandler$1.run(LearnerHandler.java:753)]
+END
+START
+TIMESTAMP:1674889324335
+THREADID:68
+THREADOBJ:1866856541
+PATH:FAVMSG:172.30.0.6&1252940471
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.sendPackets(LearnerHandler.java:356), org.apache.zookeeper.server.quorum.LearnerHandler.access$200(LearnerHandler.java:62), org.apache.zookeeper.server.quorum.LearnerHandler$1.run(LearnerHandler.java:753)]
+END
+START
+TIMESTAMP:1674889324360
+THREADID:68
+THREADOBJ:1866856541
+PATH:FAVMSG:172.30.0.6&227422731
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.sendPackets(LearnerHandler.java:356), org.apache.zookeeper.server.quorum.LearnerHandler.access$200(LearnerHandler.java:62), org.apache.zookeeper.server.quorum.LearnerHandler$1.run(LearnerHandler.java:753)]
+END
+START
+TIMESTAMP:1674889324376
+THREADID:68
+THREADOBJ:1866856541
+PATH:FAVMSG:172.30.0.6&1098184846
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.sendPackets(LearnerHandler.java:356), org.apache.zookeeper.server.quorum.LearnerHandler.access$200(LearnerHandler.java:62), org.apache.zookeeper.server.quorum.LearnerHandler$1.run(LearnerHandler.java:753)]
+END
+START
+TIMESTAMP:1674889324390
+THREADID:68
+THREADOBJ:1866856541
+PATH:FAVMSG:172.30.0.6&898058006
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.sendPackets(LearnerHandler.java:356), org.apache.zookeeper.server.quorum.LearnerHandler.access$200(LearnerHandler.java:62), org.apache.zookeeper.server.quorum.LearnerHandler$1.run(LearnerHandler.java:753)]
+END
+START
+TIMESTAMP:1674889324398
+THREADID:68
+THREADOBJ:1866856541
+PATH:FAVMSG:172.30.0.6&707188879
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.sendPackets(LearnerHandler.java:356), org.apache.zookeeper.server.quorum.LearnerHandler.access$200(LearnerHandler.java:62), org.apache.zookeeper.server.quorum.LearnerHandler$1.run(LearnerHandler.java:753)]
+END
+START
+TIMESTAMP:1674889324429
+THREADID:68
+THREADOBJ:1866856541
+PATH:FAVMSG:172.30.0.6&2133347970
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.sendPackets(LearnerHandler.java:356), org.apache.zookeeper.server.quorum.LearnerHandler.access$200(LearnerHandler.java:62), org.apache.zookeeper.server.quorum.LearnerHandler$1.run(LearnerHandler.java:753)]
+END
+START
+TIMESTAMP:1674889324441
+THREADID:68
+THREADOBJ:1866856541
+PATH:FAVMSG:172.30.0.6&605834935
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.sendPackets(LearnerHandler.java:356), org.apache.zookeeper.server.quorum.LearnerHandler.access$200(LearnerHandler.java:62), org.apache.zookeeper.server.quorum.LearnerHandler$1.run(LearnerHandler.java:753)]
+END
+START
+TIMESTAMP:1674889325016
+THREADID:68
+THREADOBJ:1866856541
+PATH:FAVMSG:172.30.0.6&1913942933
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.sendPackets(LearnerHandler.java:356), org.apache.zookeeper.server.quorum.LearnerHandler.access$200(LearnerHandler.java:62), org.apache.zookeeper.server.quorum.LearnerHandler$1.run(LearnerHandler.java:753)]
+END
+START
+TIMESTAMP:1674889325978
+THREADID:68
+THREADOBJ:1866856541
+PATH:FAVMSG:172.30.0.6&733741653
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.sendPackets(LearnerHandler.java:356), org.apache.zookeeper.server.quorum.LearnerHandler.access$200(LearnerHandler.java:62), org.apache.zookeeper.server.quorum.LearnerHandler$1.run(LearnerHandler.java:753)]
+END
+START
+TIMESTAMP:1674889325981
+THREADID:68
+THREADOBJ:1866856541
+PATH:FAVMSG:172.30.0.6&1656050503
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.sendPackets(LearnerHandler.java:356), org.apache.zookeeper.server.quorum.LearnerHandler.access$200(LearnerHandler.java:62), org.apache.zookeeper.server.quorum.LearnerHandler$1.run(LearnerHandler.java:753)]
+END
+START
+TIMESTAMP:1674889326069
+THREADID:68
+THREADOBJ:1866856541
+PATH:FAVMSG:172.30.0.6&1640795115
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.sendPackets(LearnerHandler.java:356), org.apache.zookeeper.server.quorum.LearnerHandler.access$200(LearnerHandler.java:62), org.apache.zookeeper.server.quorum.LearnerHandler$1.run(LearnerHandler.java:753)]
+END
+START
+TIMESTAMP:1674889326074
+THREADID:68
+THREADOBJ:1866856541
+PATH:FAVMSG:172.30.0.6&1468850056
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.sendPackets(LearnerHandler.java:356), org.apache.zookeeper.server.quorum.LearnerHandler.access$200(LearnerHandler.java:62), org.apache.zookeeper.server.quorum.LearnerHandler$1.run(LearnerHandler.java:753)]
+END
+START
+TIMESTAMP:1674889327016
+THREADID:68
+THREADOBJ:1866856541
+PATH:FAVMSG:172.30.0.6&501870098
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.sendPackets(LearnerHandler.java:356), org.apache.zookeeper.server.quorum.LearnerHandler.access$200(LearnerHandler.java:62), org.apache.zookeeper.server.quorum.LearnerHandler$1.run(LearnerHandler.java:753)]
+END
+START
+TIMESTAMP:1674889329017
+THREADID:68
+THREADOBJ:1866856541
+PATH:FAVMSG:172.30.0.6&1736119989
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.LearnerHandler.sendPackets(LearnerHandler.java:356), org.apache.zookeeper.server.quorum.LearnerHandler.access$200(LearnerHandler.java:62), org.apache.zookeeper.server.quorum.LearnerHandler$1.run(LearnerHandler.java:753)]
+END

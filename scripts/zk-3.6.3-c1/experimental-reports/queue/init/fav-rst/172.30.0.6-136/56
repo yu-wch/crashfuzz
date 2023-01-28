@@ -1,0 +1,200 @@
+START
+TIMESTAMP:1674890041991
+THREADID:56
+THREADOBJ:1648013474
+PATH:CREALC:/home/gaoyu/evaluation/zk-3.6.3/zkData/version-2/log.100000001
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[java.io.FileOutputStream.<init>(FileOutputStream.java:213), java.io.FileOutputStream.<init>(FileOutputStream.java:162), org.apache.zookeeper.server.persistence.FileTxnLog.append(FileTxnLog.java:287), org.apache.zookeeper.server.persistence.FileTxnSnapLog.append(FileTxnSnapLog.java:582), org.apache.zookeeper.server.ZKDatabase.append(ZKDatabase.java:641), org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:181)]
+END
+START
+TIMESTAMP:1674890041992
+THREADID:56
+THREADOBJ:1648013474
+PATH:/home/gaoyu/evaluation/zk-3.6.3/zkData/version-2/log.100000001
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[java.io.FileOutputStream.writeBytes$$PHOSPHORTAGGED(FileOutputStream.java), java.io.FileOutputStream.write(FileOutputStream.java:326), java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82), java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140), org.apache.zookeeper.server.persistence.FileTxnLog.append(FileTxnLog.java:293), org.apache.zookeeper.server.persistence.FileTxnSnapLog.append(FileTxnSnapLog.java:582), org.apache.zookeeper.server.ZKDatabase.append(ZKDatabase.java:641), org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:181)]
+END
+START
+TIMESTAMP:1674890041993
+THREADID:56
+THREADOBJ:1648013474
+PATH:/home/gaoyu/evaluation/zk-3.6.3/zkData/version-2/log.100000001
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[java.io.FileOutputStream.writeBytes$$PHOSPHORTAGGED(FileOutputStream.java), java.io.FileOutputStream.write(FileOutputStream.java:326), java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82), java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140), org.apache.zookeeper.server.persistence.FileTxnLog.commit(FileTxnLog.java:392), org.apache.zookeeper.server.persistence.FileTxnSnapLog.commit(FileTxnSnapLog.java:590), org.apache.zookeeper.server.ZKDatabase.commit(ZKDatabase.java:657), org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:236), org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:169)]
+END
+START
+TIMESTAMP:1674890042006
+THREADID:56
+THREADOBJ:1648013474
+PATH:FAVMSG:172.30.0.4&1867672015
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.Learner.writePacketNow(Learner.java:194), org.apache.zookeeper.server.quorum.Learner.writePacket(Learner.java:186), org.apache.zookeeper.server.quorum.SendAckRequestProcessor.processRequest(SendAckRequestProcessor.java:46), org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:246), org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:169)]
+END
+START
+TIMESTAMP:1674890042153
+THREADID:56
+THREADOBJ:1648013474
+PATH:/home/gaoyu/evaluation/zk-3.6.3/zkData/version-2/log.100000001
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[java.io.FileOutputStream.writeBytes$$PHOSPHORTAGGED(FileOutputStream.java), java.io.FileOutputStream.write(FileOutputStream.java:326), java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82), java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140), org.apache.zookeeper.server.persistence.FileTxnLog.commit(FileTxnLog.java:392), org.apache.zookeeper.server.persistence.FileTxnSnapLog.commit(FileTxnSnapLog.java:590), org.apache.zookeeper.server.ZKDatabase.commit(ZKDatabase.java:657), org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:236), org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:169)]
+END
+START
+TIMESTAMP:1674890042154
+THREADID:56
+THREADOBJ:1648013474
+PATH:FAVMSG:172.30.0.4&839548871
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.Learner.writePacketNow(Learner.java:194), org.apache.zookeeper.server.quorum.Learner.writePacket(Learner.java:186), org.apache.zookeeper.server.quorum.SendAckRequestProcessor.processRequest(SendAckRequestProcessor.java:46), org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:246), org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:169)]
+END
+START
+TIMESTAMP:1674890042195
+THREADID:56
+THREADOBJ:1648013474
+PATH:/home/gaoyu/evaluation/zk-3.6.3/zkData/version-2/log.100000001
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[java.io.FileOutputStream.writeBytes$$PHOSPHORTAGGED(FileOutputStream.java), java.io.FileOutputStream.write(FileOutputStream.java:326), java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82), java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140), org.apache.zookeeper.server.persistence.FileTxnLog.commit(FileTxnLog.java:392), org.apache.zookeeper.server.persistence.FileTxnSnapLog.commit(FileTxnSnapLog.java:590), org.apache.zookeeper.server.ZKDatabase.commit(ZKDatabase.java:657), org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:236), org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:169)]
+END
+START
+TIMESTAMP:1674890042196
+THREADID:56
+THREADOBJ:1648013474
+PATH:FAVMSG:172.30.0.4&870749791
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.Learner.writePacketNow(Learner.java:194), org.apache.zookeeper.server.quorum.Learner.writePacket(Learner.java:186), org.apache.zookeeper.server.quorum.SendAckRequestProcessor.processRequest(SendAckRequestProcessor.java:46), org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:246), org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:169)]
+END
+START
+TIMESTAMP:1674890042232
+THREADID:56
+THREADOBJ:1648013474
+PATH:/home/gaoyu/evaluation/zk-3.6.3/zkData/version-2/log.100000001
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[java.io.FileOutputStream.writeBytes$$PHOSPHORTAGGED(FileOutputStream.java), java.io.FileOutputStream.write(FileOutputStream.java:326), java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82), java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140), org.apache.zookeeper.server.persistence.FileTxnLog.commit(FileTxnLog.java:392), org.apache.zookeeper.server.persistence.FileTxnSnapLog.commit(FileTxnSnapLog.java:590), org.apache.zookeeper.server.ZKDatabase.commit(ZKDatabase.java:657), org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:236), org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:169)]
+END
+START
+TIMESTAMP:1674890042234
+THREADID:56
+THREADOBJ:1648013474
+PATH:FAVMSG:172.30.0.4&628934977
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.Learner.writePacketNow(Learner.java:194), org.apache.zookeeper.server.quorum.Learner.writePacket(Learner.java:186), org.apache.zookeeper.server.quorum.SendAckRequestProcessor.processRequest(SendAckRequestProcessor.java:46), org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:246), org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:169)]
+END
+START
+TIMESTAMP:1674890042292
+THREADID:56
+THREADOBJ:1648013474
+PATH:/home/gaoyu/evaluation/zk-3.6.3/zkData/version-2/log.100000001
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[java.io.FileOutputStream.writeBytes$$PHOSPHORTAGGED(FileOutputStream.java), java.io.FileOutputStream.write(FileOutputStream.java:326), java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82), java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140), org.apache.zookeeper.server.persistence.FileTxnLog.commit(FileTxnLog.java:392), org.apache.zookeeper.server.persistence.FileTxnSnapLog.commit(FileTxnSnapLog.java:590), org.apache.zookeeper.server.ZKDatabase.commit(ZKDatabase.java:657), org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:236), org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:169)]
+END
+START
+TIMESTAMP:1674890042304
+THREADID:56
+THREADOBJ:1648013474
+PATH:FAVMSG:172.30.0.4&408718320
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.Learner.writePacketNow(Learner.java:194), org.apache.zookeeper.server.quorum.Learner.writePacket(Learner.java:186), org.apache.zookeeper.server.quorum.SendAckRequestProcessor.processRequest(SendAckRequestProcessor.java:46), org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:246), org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:169)]
+END
+START
+TIMESTAMP:1674890042321
+THREADID:56
+THREADOBJ:1648013474
+PATH:/home/gaoyu/evaluation/zk-3.6.3/zkData/version-2/log.100000001
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[java.io.FileOutputStream.writeBytes$$PHOSPHORTAGGED(FileOutputStream.java), java.io.FileOutputStream.write(FileOutputStream.java:326), java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82), java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140), org.apache.zookeeper.server.persistence.FileTxnLog.commit(FileTxnLog.java:392), org.apache.zookeeper.server.persistence.FileTxnSnapLog.commit(FileTxnSnapLog.java:590), org.apache.zookeeper.server.ZKDatabase.commit(ZKDatabase.java:657), org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:236), org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:169)]
+END
+START
+TIMESTAMP:1674890042323
+THREADID:56
+THREADOBJ:1648013474
+PATH:FAVMSG:172.30.0.4&1265956886
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.Learner.writePacketNow(Learner.java:194), org.apache.zookeeper.server.quorum.Learner.writePacket(Learner.java:186), org.apache.zookeeper.server.quorum.SendAckRequestProcessor.processRequest(SendAckRequestProcessor.java:46), org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:246), org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:169)]
+END
+START
+TIMESTAMP:1674890042341
+THREADID:56
+THREADOBJ:1648013474
+PATH:/home/gaoyu/evaluation/zk-3.6.3/zkData/version-2/log.100000001
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[java.io.FileOutputStream.writeBytes$$PHOSPHORTAGGED(FileOutputStream.java), java.io.FileOutputStream.write(FileOutputStream.java:326), java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82), java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140), org.apache.zookeeper.server.persistence.FileTxnLog.commit(FileTxnLog.java:392), org.apache.zookeeper.server.persistence.FileTxnSnapLog.commit(FileTxnSnapLog.java:590), org.apache.zookeeper.server.ZKDatabase.commit(ZKDatabase.java:657), org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:236), org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:169)]
+END
+START
+TIMESTAMP:1674890042348
+THREADID:56
+THREADOBJ:1648013474
+PATH:FAVMSG:172.30.0.4&766651306
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.Learner.writePacketNow(Learner.java:194), org.apache.zookeeper.server.quorum.Learner.writePacket(Learner.java:186), org.apache.zookeeper.server.quorum.SendAckRequestProcessor.processRequest(SendAckRequestProcessor.java:46), org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:246), org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:169)]
+END
+START
+TIMESTAMP:1674890043719
+THREADID:56
+THREADOBJ:1648013474
+PATH:/home/gaoyu/evaluation/zk-3.6.3/zkData/version-2/log.100000001
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[java.io.FileOutputStream.writeBytes$$PHOSPHORTAGGED(FileOutputStream.java), java.io.FileOutputStream.write(FileOutputStream.java:326), java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82), java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140), org.apache.zookeeper.server.persistence.FileTxnLog.commit(FileTxnLog.java:392), org.apache.zookeeper.server.persistence.FileTxnSnapLog.commit(FileTxnSnapLog.java:590), org.apache.zookeeper.server.ZKDatabase.commit(ZKDatabase.java:657), org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:236), org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:169)]
+END
+START
+TIMESTAMP:1674890043720
+THREADID:56
+THREADOBJ:1648013474
+PATH:FAVMSG:172.30.0.4&1534910159
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.Learner.writePacketNow(Learner.java:194), org.apache.zookeeper.server.quorum.Learner.writePacket(Learner.java:186), org.apache.zookeeper.server.quorum.SendAckRequestProcessor.processRequest(SendAckRequestProcessor.java:46), org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:246), org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:169)]
+END
+START
+TIMESTAMP:1674890043795
+THREADID:56
+THREADOBJ:1648013474
+PATH:/home/gaoyu/evaluation/zk-3.6.3/zkData/version-2/log.100000001
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[java.io.FileOutputStream.writeBytes$$PHOSPHORTAGGED(FileOutputStream.java), java.io.FileOutputStream.write(FileOutputStream.java:326), java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82), java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140), org.apache.zookeeper.server.persistence.FileTxnLog.commit(FileTxnLog.java:392), org.apache.zookeeper.server.persistence.FileTxnSnapLog.commit(FileTxnSnapLog.java:590), org.apache.zookeeper.server.ZKDatabase.commit(ZKDatabase.java:657), org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:236), org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:169)]
+END
+START
+TIMESTAMP:1674890043797
+THREADID:56
+THREADOBJ:1648013474
+PATH:FAVMSG:172.30.0.4&1778271303
+FAULTPOS:BEFORE
+NEWCOV:0
+TAINT:Taint Labels = []
+CALLSTACK:[org.apache.zookeeper.server.quorum.QuorumPacket.serialize(QuorumPacket.java:68), org.apache.jute.BinaryOutputArchive.writeRecord(BinaryOutputArchive.java:126), org.apache.zookeeper.server.quorum.Learner.writePacketNow(Learner.java:194), org.apache.zookeeper.server.quorum.Learner.writePacket(Learner.java:186), org.apache.zookeeper.server.quorum.SendAckRequestProcessor.processRequest(SendAckRequestProcessor.java:46), org.apache.zookeeper.server.SyncRequestProcessor.flush(SyncRequestProcessor.java:246), org.apache.zookeeper.server.SyncRequestProcessor.run(SyncRequestProcessor.java:169)]
+END

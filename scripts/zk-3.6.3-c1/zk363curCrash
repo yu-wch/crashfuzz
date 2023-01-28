@@ -1,0 +1,9 @@
+fault point=2060969680
+event=CRASH
+pos=BEFORE
+nodeIp=172.30.0.4
+ioID=-874532970
+ioCallStack=[org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:85), org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:134), org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:650)]
+path=FAVMSG:READ172.30.0.2&81991974
+ioAppearIdx=5
+end

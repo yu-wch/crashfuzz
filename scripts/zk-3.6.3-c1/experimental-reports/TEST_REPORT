@@ -1,0 +1,36 @@
+*********************************************************************************
+*******************************CrashFuzz Result**********************************
+*******************************2023-01-28 15:32:26 PM**********************************
+*********************************************************************************
+*Tested time: 2m49s
+*For 1 performed tests, the total execution time is 22s, the average execution time is 22s
+*For 1 collected maps, the total map size is 1669, the average size of every map is 1669
+*Skip 0 tests, including 0 not triggered cases.
+*Fuzzed 0 tests.
+*Test 0 unique cases (different fault sequence IDs).
+---------------------------------------------------------------------------------
+*Got 0 bugs.
+*Got 0 hangs.
+*********************************************************************************
+********************************COVERAGE*****************************************
+last new coverate: 48s(0 faults)
+for 0th 30 minutes, the total coverage is 1669
+*****************************TEST COUNT******************************************
+for 0th 30 minutes: 
+--1 0-faults tests were executed. 
+**1 tests were executed in this time window. 
+**1 tests were executed in total for now. 
+**1 0-faults tests were executed in total for now. 
+---------------------------------------------------------------------------------
+******************************NEW COV TEST COUNT*********************************
+for 0th 30 minutes: 
+--1 0-faults tests resulted in new coverages. 
+**1 tests resulted in new coverages in this time window. 
+**1 tests resulted in new coverages in total for now. 
+**1 0-faults tests resulted in new coverages in total for now. 
+---------------------------------------------------------------------------------
+***********************************BUG COUNT*************************************
+last new bug: (0 faults)
+***********************************HANG COUNT************************************
+last new hang: (0 faults)
+*************************************END*****************************************
